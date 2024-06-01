@@ -106,7 +106,7 @@ class LinkedInJobs():
 
 
 # Define the job title, location, and number of jobs to scrape
-job_title = 'data scienctist'
+job_title = 'data scientist'
 location = 'Israel'
 num_jobs = 10
 
