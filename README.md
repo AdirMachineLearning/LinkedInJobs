@@ -27,16 +27,15 @@ To use the LinkedInJobs scraper, instantiate the class with the desired job titl
 
 from LinkedInJobs import LinkedInJobs
 
-# Initialize the scraper
+## Initialize the scraper
 job_scraper = LinkedInJobs('data scientist', 'Israel', 700)
 
-# Fetch and clean job data
-df_jobs = job_scraper.get_jobs()
-df_cleaned = job_scraper.clean_names()
+## Fetch and clean job data
+- **df_jobs** = job_scraper.get_jobs()
+- **df_cleaned** = job_scraper.clean_names()
 
-print(df_cleaned)
-Note
-The functionality of this scraper is dependent on the structure of LinkedIn's job pages. Any changes to LinkedIn's HTML structure may require adjustments to the scraper code.
+# Note
+- The functionality of this scraper is dependent on the structure of LinkedIn's job pages. Any changes to LinkedIn's HTML structure may require adjustments to the scraper code.
 Please ensure that you use this script responsibly and ethically, considering LinkedIn's terms of service regarding data scraping.
 
 
@@ -54,7 +53,7 @@ df_jobs = job_scraper.get_jobs()
 df_cleaned = job_scraper.clean_names()
 
 print(df_cleaned)
-
+```
 ```
 ## Example Output
 
