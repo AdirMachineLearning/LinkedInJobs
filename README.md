@@ -54,7 +54,6 @@ df_cleaned = job_scraper.clean_names()
 
 print(df_cleaned)
 ```
-```
 ## Example Output
 
 The DataFrame will contain the following columns:
