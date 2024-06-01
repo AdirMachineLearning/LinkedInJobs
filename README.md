@@ -1,13 +1,15 @@
-LinkedInJobs Scraper - Adir Leibovici
-Overview
+# LinkedInJobs Scraper - Adir Leibovici
+
+## Overview
 LinkedInJobs is a Python class that automates the scraping of job listings from LinkedIn based on user-defined job titles and locations. The class effectively gathers data, such as job titles, companies, and locations, and further processes this information to categorize job titles into standardized forms.
 
-Features
+## Features
 Job Fetching: Automatically fetches job listings from LinkedIn for specified job titles and locations.
 Pagination Handling: Manages multiple pages of job listings to gather comprehensive job data.
 Data Standardization: Implements a cleaning function to standardize job titles based on common industry keywords.
 DataFrame Output: Outputs the job data into a pandas DataFrame for easy analysis and manipulation.
-Dependencies
+
+## Dependencies
 To run the LinkedInJobs scraper, you need Python installed on your machine along with the following packages:
 
 requests: For making HTTP requests.
@@ -15,7 +17,8 @@ beautifulsoup4: For parsing HTML content.
 pandas: For data manipulation and storage.
 math: For basic mathematical operations.
 re: For regular expression operations.
-Installation
+
+## Installation
 Ensure Python is installed on your system and install the required Python packages using pip:
 
 pip install requests beautifulsoup4 pandas
